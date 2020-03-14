@@ -1,0 +1,11 @@
+.content1 {
+  width: 100px;
+  height: 100px;
+  background: purple;
+}
+
+.content2 {
+  width: 200rpx;
+  height: 200rpx;
+  background: orange;
+}

@@ -1,0 +1,14 @@
+<!--pages/wxss/wxss.wxml-->
+<text>pages/wxss/wxss.wxml</text>
+<view class="content1"></view>
+<view class="content2"></view>
+<button class="btn">按钮</button>
+
+<view>---template---</view>
+<!-- 模板中包裹的内容在没有使用前不会进行渲染 -->
+<template name="contentItem">
+  <button size="mini">按钮</button>
+  <view>哈哈</view>
+</template>
+
+<template is="contentItem"/>
